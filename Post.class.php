@@ -7,11 +7,11 @@
  * @license    http://www.codexworld.com/license
  */
 class Post{
-    private $dbHost     = "localhost";
-    private $dbUsername = "root";
-    private $dbPassword = "";
+    private $dbHost     = "sql11.freemysqlhosting.net";
+    private $dbUsername = "sql11475052";
+    private $dbPassword = "rTr2Mvjqgz";
     private $dbName     = "egzaminas";
-    private $tblName    = "posts";
+    private $tblName    = "sql11475052";
     
     public function __construct(){
         if(!isset($this->db)){
