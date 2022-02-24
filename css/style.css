@@ -1,0 +1,164 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background-image: linear-gradient(to right, rgba(212, 219, 214, 0.6), rgba(28, 43, 45, 0.9)), url("../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    width: 90%;
+    height: 700px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #161619; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #45ABC6; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #2789A3; 
+}
+
+
+.navbar
+{
+    background: #2A2C2C;
+    height: 80px;
+    width: 111%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container
+{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto ;
+    padding: 0 50px;
+}
+
+.fa-gem
+{
+    margin-right: 0.5rem;
+}
+
+.navbar__menu
+{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item :hover
+{
+    height: 100%; 
+    color: #2789A3;
+    
+}
+
+.navbar__links
+{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: transparent;
+    color: #fff;
+}
+
+@media screen and (max-width: 960px)
+{
+
+}
+
+    .news {
+        justify-content: center;
+        text-align: center;
+        color: white;
+        width: 111%;
+        /* padding: 40px; */
+        margin: auto;
+        font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .hr1{
+        height: 3px;
+        width:100%;
+        background-color: black;
+        border: none;
+    }
+
+    .card {
+        font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        border-radius: 16px;
+        background-color: white;
+        position: relative;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.3em;
+        margin-top: 1.3em;
+        padding: 0.9em 1.4em;
+        max-width: 95%;
+    }
+
+    @media screen and (max-width: 768px) 
+    {
+    
+    }
+
+    @media screen and (max-width: 960px)
+    {
+
+    }
+
+    @media screen and (max-width: 480px)
+    {
+        
+    }
+
+
+    
