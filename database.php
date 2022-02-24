@@ -1,9 +1,9 @@
 <?php
 
-$user = "root";
-$pass = "";
-$db_name = "egzaminas";
-$host  = "localhost";
+$user = "sql11475052";
+$pass = "rTr2Mvjqgz";
+$db_name = "sql11475052";
+$host  = "sql11.freemysqlhosting.net";
 
 try {
     $dbh = new PDO("mysql:host=$host;dbname=$db_name;charset=utf8", $user, $pass);
