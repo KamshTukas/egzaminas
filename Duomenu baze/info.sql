@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 2022 m. Vas 24 d. 08:00
+-- Generation Time: 2022 m. Vas 24 d. 12:32
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.1
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `bunkeris`
+-- Database: `egzaminas`
 --
 
 -- --------------------------------------------------------
@@ -40,7 +40,7 @@ CREATE TABLE `info` (
 --
 
 INSERT INTO `info` (`id`, `pavadinimas`, `tekstas`, `data_paskutine`) VALUES
-(1, 'Labas', 'Labas', '2021-12-03');
+(1, 'SERVISAI.LT', 'Geriausi servisų meistrai LIETUVOJE !', '2022-02-24');
 
 --
 -- Indexes for dumped tables

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 2022 m. Vas 24 d. 07:24
+-- Generation Time: 2022 m. Vas 24 d. 12:32
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.1
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `bunkeris`
+-- Database: `egzaminas`
 --
 
 -- --------------------------------------------------------
